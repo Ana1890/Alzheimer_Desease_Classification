@@ -4,10 +4,10 @@ Dataset provisto por el sitio web de Kaggle: https://www.kaggle.com/tourist55/Al
 
 El mismo está compuesto por imágenes MRI en formato .jpg y tienen cuatro clases tanto en sus datos de test como de train. Estas clases son:
 
-* 1) Mild demented
-* 2) Moderate demented
-* 3) Non demented
-* 4) Very mild demented
+1) Mild demented
+2) Moderate demented
+3) Non demented
+4) Very mild demented
 
 Para los datos de test tenemos:
 
