@@ -8,6 +8,7 @@ El mismo está compuesto por imágenes MRI en formato .jpg y tienen cuatro clase
 * 2) Moderate demented
 * 3) Non demented
 * 4) Very mild demented
+
 Para los datos de test tenemos:
 
 * 179 imágenes Mild demented
