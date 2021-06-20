@@ -1,26 +1,15 @@
-# MRIimages_deeplearning
+# Estadificación de Alzheimer por medio de imágenes MRI utilizando redes neuronales
 
-Dataset provisto por el sitio web de Kaggle: https://www.kaggle.com/tourist55/Alzheimers-dataset-4-class-of-images
+Proyecto desarrollado dentro del Programa de Investigación en Ingeniería Biomédica (eje Inteligencia Artificial aplicada en salud) organizado por la Universidad Tecnológica del Perú - IEEE Student Branch -  a Student Chapter of the IEEE Engineering in Medicine & Biology Society and a Student Chapter of the IEEE Robotics & Automation Society.
 
-El mismo está compuesto por imágenes MRI en formato .jpg y tienen cuatro clases tanto en sus datos de test como de train. Estas clases son:
+Descripción: Las imágenes fueron recolectadas desde varios sitios web. Son imágenes MRI de cerebro en su corte axial y en formato .jpg a través de las cuales se pretende predecir el grado de demencia que puede tener un adulto en un momento determinado: demencia leve, demencia moderada, no demencia, demencia muy leve. De esta manera se contribuye al diagnóstico temprano de Alzheimer. Los datos se pueden hallar en https://www.kaggle.com/tourist55/Alzheimers-dataset-4-class-of-images.
 
-1) Mild demented
-2) Moderate demented
-3) Non demented
-4) Very mild demented
+Se propone reutilizar un modelo híbrido que funcionó bien en trabajos de investigación relacionados, y agregar una función de pre-procesamiento de los datos de entrada que nos permita uniformizar los mismos con respecto a sus niveles de grises. De esta manera se podr´ıa aumentar el nivel de generalización a más imágenes independientemente de las diferentes formas de adquisición, de los errores que se pudieron cometer, etc. También se pretende verificar si aumentando el número de épocas la perfomance de nuestro modelo mejora.
 
-Para los datos de test tenemos:
+# Grupo 4 - Integrantes:
 
-* 179 imágenes Mild demented
-* 12 imágenes Moderate demented
-* 640 imágenes Non demented
-* 448 imágenes very mild demented
+* Ana Rusconi
+* Karen Obispo
 
-Para los datos de train:
 
-* 717 imágenes Mild demented
-* 52 imágened Moderate demented
-* 2560 imágenes Non demented
-* 1792 imágenes Very mild demented
-* 
-Se intentará elevar el accuracy de un modelo de red neuronal residual evitando overfitting y probando de cambiar distintos parámetros tales como el número de épocas
+
