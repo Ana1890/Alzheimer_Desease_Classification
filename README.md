@@ -6,10 +6,8 @@ Descripción: Las imágenes fueron recolectadas desde varios sitios web. Son im�
 
 Se propone reutilizar un modelo híbrido que funcionó bien en trabajos de investigación relacionados, y agregar una función de pre-procesamiento de los datos de entrada que nos permita uniformizar los mismos con respecto a sus niveles de grises. De esta manera se podría aumentar el nivel de generalización a más imágenes independientemente de las diferentes formas de adquisición, de los errores que se pudieron cometer, etc. 
 
-Nota: En la práctica, resultó mejor utilizar la técnica de transfer learning en vez de hacer uso del modelo híbrido propuesto.
-
 # Conclusiones:
-El modelo propuesto se encuentra overfitteado, lo que produce una perfomance no reproducible. Una causa de esto puede ser el gran desbalanceo que se presenta entre las clases. A pesar de que hicimos uso de los pesos en la función de pérdida, el modelo aún sigue sin performar del todo bien. Esto imposibilita realizar una comparación del mismo en cuanto a la etapa de pre-procesamiento de las imágenes. Una mejora que se puede hacer es un oversampling o data augmentation sobre las clases minoritarias, para poder balancearlas respecto a las clases mayoritarias. 
+El primer modelo propuesto se encuentra overfitteado, lo que produce una perfomance no reproducible. Una causa de esto puede ser el gran desbalanceo que se presenta entre las clases. A pesar de que hicimos uso de los pesos en la función de pérdida, el modelo aún sigue sin performar del todo bien. Esto imposibilita realizar una comparación del mismo en cuanto a la etapa de pre-procesamiento de las imágenes. Una mejora que se puede hacer es un oversampling o data augmentation sobre las clases minoritarias, para poder balancearlas respecto a las clases mayoritarias. 
 
 # Grupo 4 - Integrantes:
 
