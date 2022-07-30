@@ -6,6 +6,8 @@ Descripción: Las imágenes fueron recolectadas desde varios sitios web. Son im�
 
 Se propone reutilizar un modelo híbrido que funcionó bien en trabajos de investigación relacionados, y agregar una función de pre-procesamiento de los datos de entrada que nos permita uniformizar los mismos con respecto a sus niveles de grises. De esta manera se podría aumentar el nivel de generalización a más imágenes independientemente de las diferentes formas de adquisición, de los errores que se pudieron cometer, etc. 
 
+Nota: En la práctica, resultó mejor utilizar la técnica de transfer learning en vez de hacer uso del modelo híbrido propuesto.
+
 # Grupo 4 - Integrantes:
 
 * Ana Rusconi
